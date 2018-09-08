@@ -1,0 +1,9 @@
+[04-Sep-2018 18:43:33 UTC] PHP Parse error:  syntax error, unexpected 'seven' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 8
+[04-Sep-2018 18:43:35 UTC] PHP Parse error:  syntax error, unexpected 'seven' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 8
+[04-Sep-2018 18:45:09 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 11
+[04-Sep-2018 20:13:49 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 11
+[06-Sep-2018 17:42:26 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 11
+[06-Sep-2018 17:43:30 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 11
+[06-Sep-2018 17:43:32 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 11
+[06-Sep-2018 17:43:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 11
+[06-Sep-2018 18:35:41 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 40

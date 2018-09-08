@@ -1,0 +1,18 @@
+h1 {
+    color: white;
+    background-color: #002a4e;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 100px;
+    font-size: 300%;
+}
+#theBox {
+    border-color: red;
+}
+footer{
+    background-color: #eceade;
+}
+a:hoover{
+    color: red;
+    font-size: 35px;
+}

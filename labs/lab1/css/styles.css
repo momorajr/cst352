@@ -1,42 +1,42 @@
 body {
-        background-color: black;
-        color: gray;
+    background-image: url("../img/professional.jpg");
+        
 }
 
 header, main, nav, footer{
     text-align: center;
+}
+h1 {
+    color: white;
 }
 
 nav a{
     padding: 15px;
     padding-bottom: 4px;
     font-size: 1.8em;
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /*removes underline*/
+    color:  white; /*by default links are blue*/
 }
 nav a:hover{
-    border-bottom:2px orange solid;
+    border-bottom: 2px orange solid;
     font-size: 2em;
     transition: .9s;
 }
-nav a.active{
-    background-color: red;
+.current{
+    background-color: #92a8d1;
+}
+
+#me, #text {
     color: white;
+    text-align: center;
+    background-color: #95bff2;
+    border-radius: 25px;
 }
-nav a:hover:not(.active) {
-    border-bottom:2px orange solid;
-    font-size: 2em;
-}
-#me, #welcomeText{
-    float: left;
-}
-#welcomeText{
-    text-align: left;
-}
+
 footer{
     clear: left;
     font-size: 90%;
-    color: lightblue;
+    color: white;
 }
 table {
     margin: 0px auto;
@@ -46,23 +46,26 @@ td {
     font-size: 1.3em;
 }
 td strong{
-    color: orange;
+    color: white;
 }
 #table-header{
-    background-color: #351a00;
+    background-color: blue;
     
 }
 .table-row{
-    background-color: #753900;
+    background-color: blue;
+    color: white;
 }
 ul {
     text-align: left;
     padding-left: 200px;
+    color: white;
 }
-#contact{
-    padding-top: 50px;
-    border: 1px solid red;
-}
+
 hr {
     width: 50%;
+    
+}
+#table-header {
+    margin-top: 100px;
 }
