@@ -1,7 +1,12 @@
 body {
     background-color: #101010;
 }
-h1, footer {
+footer {
+    color: #d5d5d5;
+    text-align: center;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
     color: #d5d5d5;
     text-align: center;
 }
