@@ -1,0 +1,44 @@
+body {
+    background-color: #101010;
+}
+h1, footer {
+    color: #d5d5d5;
+    text-align: center;
+}
+.homeText{
+    color: #101010;
+    font-size: 1.2em;
+    background-color: white;
+    height: 200px;
+    margin: 40px auto 40px auto;/*this puts the box in the middle*/
+    display: flex;
+    
+}
+.centerThis{
+    margin: auto; /* this centers the text as long as display flex is in parent*/
+}
+
+.all4, .miataOld, .miataSecond, .miataThird, .miataLast{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none; /*removes underline*/
+    color:  #d5d5d5; /*by default links are blue*/
+    font-size: 1.8em;
+    padding: 15px;
+}
+nav a:hover{
+    border-bottom: 2px red solid;
+    /*font-size: 2em;*/
+    transition: .9s;
+    color: #f4ffff;
+}
+.current{
+    border-bottom: 2px red solid;
+}
