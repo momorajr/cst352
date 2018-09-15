@@ -16,8 +16,9 @@
         background-image:url("../img/machine.png");
         width:600px;
         height:500px;
-        position:relative;
+        position:relative; /*originally relative for reference*/
         margin:0 auto;
+        
     }
     
     #reel1, #reel2, #reel3 {
@@ -36,16 +37,17 @@
     }
     
     input{
-        top:75px;
-        left:530px;
-        position:absolute;
+        top:90px; /*originally 75 for reference*/
+        left:1085px; /*originally 530 for reference*/
+        position:absolute; /*originally absolute for reference*/
         font-size:1.3em;
         background-color: Transparent;
-        border:none;
+        border: none;
         outline:none; /*hides button outline when clicking on it*/
         font-weight:bold;
         color:yellow;
         cursor:pointer;
+        
     }
     
     #output{
