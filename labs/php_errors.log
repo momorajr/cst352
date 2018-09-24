@@ -19,3 +19,33 @@
 [13-Sep-2018 17:10:26 UTC] PHP Parse error:  syntax error, unexpected 'rand' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst352/labs/practice/luckyNumber.php on line 9
 [13-Sep-2018 18:40:57 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 64
 [14-Sep-2018 23:31:35 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst352/labs/lab2/index.php on line 16
+[20-Sep-2018 17:29:47 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ']' in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 7
+[20-Sep-2018 17:29:48 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ']' in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 7
+[20-Sep-2018 17:38:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 31
+[20-Sep-2018 17:40:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 33
+[20-Sep-2018 17:40:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 33
+[20-Sep-2018 18:00:37 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 11
+[20-Sep-2018 18:00:37 UTC] PHP Stack trace:
+[20-Sep-2018 18:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab3/index.php:0
+[20-Sep-2018 18:00:37 UTC] PHP   2. hand() /home/ubuntu/workspace/cst352/labs/lab3/index.php:41
+[20-Sep-2018 18:00:37 UTC] PHP   3. array_pop() /home/ubuntu/workspace/cst352/labs/lab3/index.php:11
+[20-Sep-2018 18:00:37 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 11
+[20-Sep-2018 18:00:37 UTC] PHP Stack trace:
+[20-Sep-2018 18:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab3/index.php:0
+[20-Sep-2018 18:00:37 UTC] PHP   2. hand() /home/ubuntu/workspace/cst352/labs/lab3/index.php:41
+[20-Sep-2018 18:00:37 UTC] PHP   3. array_pop() /home/ubuntu/workspace/cst352/labs/lab3/index.php:11
+[20-Sep-2018 18:00:37 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 11
+[20-Sep-2018 18:00:37 UTC] PHP Stack trace:
+[20-Sep-2018 18:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab3/index.php:0
+[20-Sep-2018 18:00:37 UTC] PHP   2. hand() /home/ubuntu/workspace/cst352/labs/lab3/index.php:41
+[20-Sep-2018 18:00:37 UTC] PHP   3. array_pop() /home/ubuntu/workspace/cst352/labs/lab3/index.php:11
+[20-Sep-2018 18:00:37 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 11
+[20-Sep-2018 18:00:37 UTC] PHP Stack trace:
+[20-Sep-2018 18:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab3/index.php:0
+[20-Sep-2018 18:00:37 UTC] PHP   2. hand() /home/ubuntu/workspace/cst352/labs/lab3/index.php:41
+[20-Sep-2018 18:00:37 UTC] PHP   3. array_pop() /home/ubuntu/workspace/cst352/labs/lab3/index.php:11
+[20-Sep-2018 18:00:37 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst352/labs/lab3/index.php on line 11
+[20-Sep-2018 18:00:37 UTC] PHP Stack trace:
+[20-Sep-2018 18:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab3/index.php:0
+[20-Sep-2018 18:00:37 UTC] PHP   2. hand() /home/ubuntu/workspace/cst352/labs/lab3/index.php:41
+[20-Sep-2018 18:00:37 UTC] PHP   3. array_pop() /home/ubuntu/workspace/cst352/labs/lab3/index.php:11

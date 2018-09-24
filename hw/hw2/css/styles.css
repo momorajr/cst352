@@ -1,0 +1,73 @@
+h1{
+   font-family: 'Luckiest Guy', cursive;
+   color: #dd222d;
+   font-size: 3.9em;
+   text-shadow: -3px -3px white, 3px 3px white;
+}
+
+h2{
+   font-family: 'Luckiest Guy', cursive;
+   color: #223e92; 
+   font-size: 2.1em;
+   text-shadow: -2px -2px white, 2px 2px white;
+   
+}
+body {
+   background-image: url("../img/luckzone.png");
+   background-position: center;
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+   
+}
+
+.spinningWheel {
+    background-color: white;
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+.child {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.ticket {
+    background-color: white;
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.ticketChild{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.tryagain, .uwin{
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3.9em;
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example {
+    0%   {color: red;}
+    8%  {color: purple;}
+    16%  {color: blue;}
+    24% {color: green;}
+    32%   {color: red;}
+    40%  {color: purple;}
+    48%  {color: blue;}
+    56% {color: green;}
+    64%   {color: red;}
+    72%  {color: purple;}
+    80%  {color: blue;}
+    88% {color: green;}
+    96%   {color: red;}
+    100%  {color: purple;}
+}
