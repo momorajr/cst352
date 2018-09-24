@@ -28,9 +28,13 @@
        global $secondRow;
        if ($firstRow[0] == $secondRow[0] && $firstRow[1] == $secondRow[1] && $firstRow[2] == $secondRow[2] && $firstRow[3] == $secondRow[3]  && $firstRow[4] == $secondRow[4]){
            echo "<div class='uwin'> you win 1,000,000 dollars! </div>";
+           echo "<img src='/cst352/hw/hw2/img/check.jpg' alt='check'>";
        }
-       else 
-        echo "<div class='tryagain'> Try again! </div>";
+       else
+       {
+            echo "<div class='tryagain'> Try again! </div>";
+            
+       }
        
     }
     
