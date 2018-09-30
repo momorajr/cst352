@@ -49,3 +49,12 @@
 [20-Sep-2018 18:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab3/index.php:0
 [20-Sep-2018 18:00:37 UTC] PHP   2. hand() /home/ubuntu/workspace/cst352/labs/lab3/index.php:41
 [20-Sep-2018 18:00:37 UTC] PHP   3. array_pop() /home/ubuntu/workspace/cst352/labs/lab3/index.php:11
+[27-Sep-2018 18:36:34 UTC] PHP Warning:  include(api/pixabatAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[27-Sep-2018 18:36:34 UTC] PHP Stack trace:
+[27-Sep-2018 18:36:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[27-Sep-2018 18:36:34 UTC] PHP Warning:  include(): Failed opening 'api/pixabatAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[27-Sep-2018 18:36:34 UTC] PHP Stack trace:
+[27-Sep-2018 18:36:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[27-Sep-2018 18:36:34 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 9
+[27-Sep-2018 18:36:34 UTC] PHP Stack trace:
+[27-Sep-2018 18:36:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
