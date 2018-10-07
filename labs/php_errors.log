@@ -58,3 +58,63 @@
 [27-Sep-2018 18:36:34 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 9
 [27-Sep-2018 18:36:34 UTC] PHP Stack trace:
 [27-Sep-2018 18:36:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:23:01 UTC] PHP Warning:  include(api/pixabatAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:23:01 UTC] PHP Stack trace:
+[02-Oct-2018 17:23:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:23:01 UTC] PHP Warning:  include(): Failed opening 'api/pixabatAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:23:01 UTC] PHP Stack trace:
+[02-Oct-2018 17:23:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:23:01 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 9
+[02-Oct-2018 17:23:01 UTC] PHP Stack trace:
+[02-Oct-2018 17:23:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:23:37 UTC] PHP Warning:  include(api/pixabatAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:23:37 UTC] PHP Stack trace:
+[02-Oct-2018 17:23:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:23:37 UTC] PHP Warning:  include(): Failed opening 'api/pixabatAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:23:37 UTC] PHP Stack trace:
+[02-Oct-2018 17:23:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:23:37 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 9
+[02-Oct-2018 17:23:37 UTC] PHP Stack trace:
+[02-Oct-2018 17:23:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:24:13 UTC] PHP Warning:  include(api/pixabatAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:24:13 UTC] PHP Stack trace:
+[02-Oct-2018 17:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:24:13 UTC] PHP Warning:  include(): Failed opening 'api/pixabatAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:24:13 UTC] PHP Stack trace:
+[02-Oct-2018 17:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:24:13 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 9
+[02-Oct-2018 17:24:13 UTC] PHP Stack trace:
+[02-Oct-2018 17:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:37:33 UTC] PHP Warning:  include(api/pixabatAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:37:33 UTC] PHP Stack trace:
+[02-Oct-2018 17:37:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:37:33 UTC] PHP Warning:  include(): Failed opening 'api/pixabatAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:37:33 UTC] PHP Stack trace:
+[02-Oct-2018 17:37:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:37:33 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 9
+[02-Oct-2018 17:37:33 UTC] PHP Stack trace:
+[02-Oct-2018 17:37:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:44:51 UTC] PHP Warning:  include(api/pixabatAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:44:51 UTC] PHP Stack trace:
+[02-Oct-2018 17:44:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:44:51 UTC] PHP Warning:  include(): Failed opening 'api/pixabatAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:44:51 UTC] PHP Stack trace:
+[02-Oct-2018 17:44:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:44:51 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 9
+[02-Oct-2018 17:44:51 UTC] PHP Stack trace:
+[02-Oct-2018 17:44:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:45:06 UTC] PHP Warning:  include(api/pixabatAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:45:06 UTC] PHP Stack trace:
+[02-Oct-2018 17:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:45:06 UTC] PHP Warning:  include(): Failed opening 'api/pixabatAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 5
+[02-Oct-2018 17:45:06 UTC] PHP Stack trace:
+[02-Oct-2018 17:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 17:45:06 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 9
+[02-Oct-2018 17:45:06 UTC] PHP Stack trace:
+[02-Oct-2018 17:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[02-Oct-2018 18:18:21 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 18
+[02-Oct-2018 18:21:27 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 18
+[02-Oct-2018 18:28:24 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 18
+[02-Oct-2018 18:28:25 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 18
+[02-Oct-2018 18:28:26 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 18
+[02-Oct-2018 18:29:19 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 18
