@@ -1,0 +1,55 @@
+.pics{
+    width: 400px;
+    height: 320px;
+    display: inline-block;
+}
+.animals{
+  width: 270px;
+  height: 250px;
+ 
+ 
+  display: flex;
+}
+.sidebar1{
+  flex: 1;
+}
+.sidebar2{
+  flex: 1;
+}
+.sidebar3{
+  flex: 1;
+}
+.sidebar4{
+  flex: 1;
+}
+#BT{
+    width: 60%;
+   border-radius: 15px;
+    background-color:#67BB26; 
+    font-size: 22px;
+}
+html{
+     font-family: 'Varela Round';
+     
+
+}
+h1{
+  margin-left: 10px;
+  color: #67BB26
+}
+body{
+   background-color:#f2f2f2  ;
+   color: #3F003F;
+  margin-left: 100px;
+  
+}
+#result{
+  background-image: url("img/background.jpeg");
+  
+   text-align: center;
+   font-size: 150px;
+   background-size: cover;
+}
+.h3promt{
+    color: #008c00;
+}

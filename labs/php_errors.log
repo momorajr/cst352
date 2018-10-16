@@ -118,3 +118,6 @@
 [02-Oct-2018 18:28:25 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 18
 [02-Oct-2018 18:28:26 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 18
 [02-Oct-2018 18:29:19 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 18
+[11-Oct-2018 18:22:53 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 13
+[11-Oct-2018 18:22:53 UTC] PHP Stack trace:
+[11-Oct-2018 18:22:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0

@@ -1,5 +1,240 @@
-[18-Sep-2018 20:42:21 UTC] PHP Warning:  Missing argument 1 for displayFirstNum(), called in /home/ubuntu/workspace/cst352/hw/hw2/index.php on line 23 and defined in /home/ubuntu/workspace/cst352/hw/hw2/index.php on line 3
-[18-Sep-2018 20:42:21 UTC] PHP Stack trace:
-[18-Sep-2018 20:42:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw2/index.php:0
-[18-Sep-2018 20:42:21 UTC] PHP   2. displayFirstNum() /home/ubuntu/workspace/cst352/hw/hw2/index.php:23
-[22-Sep-2018 04:35:23 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/ubuntu/workspace/cst352/hw/hw2/index.php on line 11
+[13-Oct-2018 08:10:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 127
+[13-Oct-2018 08:10:55 UTC] PHP Stack trace:
+[13-Oct-2018 08:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:10:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:127
+[13-Oct-2018 08:10:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 128
+[13-Oct-2018 08:10:55 UTC] PHP Stack trace:
+[13-Oct-2018 08:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:10:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:128
+[13-Oct-2018 08:10:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 129
+[13-Oct-2018 08:10:55 UTC] PHP Stack trace:
+[13-Oct-2018 08:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:10:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:129
+[13-Oct-2018 08:10:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 130
+[13-Oct-2018 08:10:55 UTC] PHP Stack trace:
+[13-Oct-2018 08:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:10:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:130
+[13-Oct-2018 08:11:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 127
+[13-Oct-2018 08:11:12 UTC] PHP Stack trace:
+[13-Oct-2018 08:11:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:11:12 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:127
+[13-Oct-2018 08:11:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 128
+[13-Oct-2018 08:11:12 UTC] PHP Stack trace:
+[13-Oct-2018 08:11:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:11:12 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:128
+[13-Oct-2018 08:11:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 129
+[13-Oct-2018 08:11:12 UTC] PHP Stack trace:
+[13-Oct-2018 08:11:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:11:12 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:129
+[13-Oct-2018 08:11:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 130
+[13-Oct-2018 08:11:12 UTC] PHP Stack trace:
+[13-Oct-2018 08:11:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:11:12 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:130
+[13-Oct-2018 08:11:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 127
+[13-Oct-2018 08:11:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:11:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:127
+[13-Oct-2018 08:11:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 128
+[13-Oct-2018 08:11:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:11:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:128
+[13-Oct-2018 08:11:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 129
+[13-Oct-2018 08:11:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:11:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:129
+[13-Oct-2018 08:11:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 130
+[13-Oct-2018 08:11:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:11:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:130
+[13-Oct-2018 08:17:14 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 97
+[13-Oct-2018 08:17:14 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:17:14 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:97
+[13-Oct-2018 08:17:14 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 98
+[13-Oct-2018 08:17:14 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:17:14 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:98
+[13-Oct-2018 08:17:14 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 99
+[13-Oct-2018 08:17:14 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:17:14 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:99
+[13-Oct-2018 08:17:14 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 100
+[13-Oct-2018 08:17:14 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:17:14 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:100
+[13-Oct-2018 08:17:16 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 126
+[13-Oct-2018 08:17:16 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:17:16 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:126
+[13-Oct-2018 08:17:16 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 127
+[13-Oct-2018 08:17:16 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:17:16 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:127
+[13-Oct-2018 08:17:16 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 128
+[13-Oct-2018 08:17:16 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:17:16 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:128
+[13-Oct-2018 08:17:16 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 129
+[13-Oct-2018 08:17:16 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:17:16 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:129
+[13-Oct-2018 08:17:41 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 97
+[13-Oct-2018 08:17:41 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:17:41 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:97
+[13-Oct-2018 08:17:41 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 98
+[13-Oct-2018 08:17:41 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:17:41 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:98
+[13-Oct-2018 08:17:41 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 99
+[13-Oct-2018 08:17:41 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:17:41 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:99
+[13-Oct-2018 08:17:41 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 100
+[13-Oct-2018 08:17:41 UTC] PHP Stack trace:
+[13-Oct-2018 08:17:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:17:41 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:100
+[13-Oct-2018 08:20:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 97
+[13-Oct-2018 08:20:31 UTC] PHP Stack trace:
+[13-Oct-2018 08:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:20:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:97
+[13-Oct-2018 08:20:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 98
+[13-Oct-2018 08:20:31 UTC] PHP Stack trace:
+[13-Oct-2018 08:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:20:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:98
+[13-Oct-2018 08:20:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 99
+[13-Oct-2018 08:20:31 UTC] PHP Stack trace:
+[13-Oct-2018 08:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:20:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:99
+[13-Oct-2018 08:20:31 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 100
+[13-Oct-2018 08:20:31 UTC] PHP Stack trace:
+[13-Oct-2018 08:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:20:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:100
+[13-Oct-2018 08:20:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 126
+[13-Oct-2018 08:20:39 UTC] PHP Stack trace:
+[13-Oct-2018 08:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:20:39 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:126
+[13-Oct-2018 08:20:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 127
+[13-Oct-2018 08:20:39 UTC] PHP Stack trace:
+[13-Oct-2018 08:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:20:39 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:127
+[13-Oct-2018 08:20:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 128
+[13-Oct-2018 08:20:39 UTC] PHP Stack trace:
+[13-Oct-2018 08:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:20:39 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:128
+[13-Oct-2018 08:20:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 129
+[13-Oct-2018 08:20:39 UTC] PHP Stack trace:
+[13-Oct-2018 08:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:20:39 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:129
+[13-Oct-2018 08:21:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 97
+[13-Oct-2018 08:21:03 UTC] PHP Stack trace:
+[13-Oct-2018 08:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:21:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:97
+[13-Oct-2018 08:21:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 98
+[13-Oct-2018 08:21:03 UTC] PHP Stack trace:
+[13-Oct-2018 08:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:21:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:98
+[13-Oct-2018 08:21:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 99
+[13-Oct-2018 08:21:03 UTC] PHP Stack trace:
+[13-Oct-2018 08:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:21:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:99
+[13-Oct-2018 08:21:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 100
+[13-Oct-2018 08:21:03 UTC] PHP Stack trace:
+[13-Oct-2018 08:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:21:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:100
+[13-Oct-2018 08:21:17 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 126
+[13-Oct-2018 08:21:17 UTC] PHP Stack trace:
+[13-Oct-2018 08:21:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:21:17 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:126
+[13-Oct-2018 08:21:17 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 127
+[13-Oct-2018 08:21:17 UTC] PHP Stack trace:
+[13-Oct-2018 08:21:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:21:17 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:127
+[13-Oct-2018 08:21:17 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 128
+[13-Oct-2018 08:21:17 UTC] PHP Stack trace:
+[13-Oct-2018 08:21:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:21:17 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:128
+[13-Oct-2018 08:21:17 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 129
+[13-Oct-2018 08:21:17 UTC] PHP Stack trace:
+[13-Oct-2018 08:21:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:21:17 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:129
+[13-Oct-2018 08:22:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 97
+[13-Oct-2018 08:22:40 UTC] PHP Stack trace:
+[13-Oct-2018 08:22:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:22:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:97
+[13-Oct-2018 08:22:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 98
+[13-Oct-2018 08:22:40 UTC] PHP Stack trace:
+[13-Oct-2018 08:22:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:22:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:98
+[13-Oct-2018 08:22:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 99
+[13-Oct-2018 08:22:40 UTC] PHP Stack trace:
+[13-Oct-2018 08:22:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:22:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:99
+[13-Oct-2018 08:22:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 100
+[13-Oct-2018 08:22:40 UTC] PHP Stack trace:
+[13-Oct-2018 08:22:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:22:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:100
+[13-Oct-2018 08:22:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 126
+[13-Oct-2018 08:22:46 UTC] PHP Stack trace:
+[13-Oct-2018 08:22:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:22:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:126
+[13-Oct-2018 08:22:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 127
+[13-Oct-2018 08:22:46 UTC] PHP Stack trace:
+[13-Oct-2018 08:22:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:22:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:127
+[13-Oct-2018 08:22:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 128
+[13-Oct-2018 08:22:46 UTC] PHP Stack trace:
+[13-Oct-2018 08:22:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:22:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:128
+[13-Oct-2018 08:22:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 129
+[13-Oct-2018 08:22:46 UTC] PHP Stack trace:
+[13-Oct-2018 08:22:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:22:46 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:129
+[13-Oct-2018 08:23:17 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 97
+[13-Oct-2018 08:23:17 UTC] PHP Stack trace:
+[13-Oct-2018 08:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:23:17 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:97
+[13-Oct-2018 08:23:17 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 98
+[13-Oct-2018 08:23:17 UTC] PHP Stack trace:
+[13-Oct-2018 08:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:23:17 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:98
+[13-Oct-2018 08:23:17 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 99
+[13-Oct-2018 08:23:17 UTC] PHP Stack trace:
+[13-Oct-2018 08:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:23:17 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:99
+[13-Oct-2018 08:23:17 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/index.php on line 100
+[13-Oct-2018 08:23:17 UTC] PHP Stack trace:
+[13-Oct-2018 08:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/index.php:0
+[13-Oct-2018 08:23:17 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/index.php:100
+[13-Oct-2018 08:23:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 126
+[13-Oct-2018 08:23:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:23:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:126
+[13-Oct-2018 08:23:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 127
+[13-Oct-2018 08:23:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:23:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:127
+[13-Oct-2018 08:23:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 128
+[13-Oct-2018 08:23:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:23:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:128
+[13-Oct-2018 08:23:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3/check.php on line 129
+[13-Oct-2018 08:23:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/check.php:0
+[13-Oct-2018 08:23:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3/check.php:129
+[13-Oct-2018 08:28:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php on line 97
+[13-Oct-2018 08:28:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php:0
+[13-Oct-2018 08:28:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php:97
+[13-Oct-2018 08:28:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php on line 98
+[13-Oct-2018 08:28:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php:0
+[13-Oct-2018 08:28:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php:98
+[13-Oct-2018 08:28:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php on line 99
+[13-Oct-2018 08:28:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php:0
+[13-Oct-2018 08:28:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php:99
+[13-Oct-2018 08:28:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php on line 100
+[13-Oct-2018 08:28:22 UTC] PHP Stack trace:
+[13-Oct-2018 08:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php:0
+[13-Oct-2018 08:28:22 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst352/hw/hw3giveup/index.php:100
