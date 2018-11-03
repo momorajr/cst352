@@ -53,33 +53,39 @@ if (isset($_GET['addAuthorForm'])) {  //checks whether the form has been submitt
     <head>
         <title> Admin: Add New Author </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
-        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            body{
+                background-image: url("img/stars.png");
+            }
+        </style>
     </head>
     <body>
 
         <h1> Adding New Author</h1>
-        
+        <br><br><br>
         <form>
-            First Name: <input type="text" name="firstName"/> <br />
-            Last Name: <input type="text" name="lastName"/> <br />
-            Gender: 
+            <div class="addauthor">
+            <span class="fn">First Name:</span> <input type="text" name="firstName"/> <br />
+            <span class="ln">Last Name: </span><input type="text" name="lastName"/> <br />
+            <span class="gender">Gender:</span> 
             <input type="radio" name="gender" value="M" id="genderMale"/>
-                <label for="genderMale">Male</label>
+                <label for="genderMale"><span class="male">Male</span></label>
             <input type="radio" name="gender" value="F" id="genderFemale"/> 
-                <label for="genderFemale">Female</label><br>
+                <label for="genderFemale"><span class="female">Female</span></label><br>
             
-            Day of birth: <input type="text" name="dob"/> <br />
-            Day of death: <input type="text" name="dod"/> <br />
-            Country: <input type="text" name="country"/> <br>
-            Profession: <input type="text" name="profession"/> <br>
+            <span class="dob">Day of birth:</span> <input type="text" name="dob"/> <br />
+            <span class="dod">Day of death:</span> <input type="text" name="dod"/> <br />
+            <span class="countryaa">Country:</span> <input type="text" name="country"/> <br>
+            <span class="pro">Profession:</span> <input type="text" name="profession"/> <br>
             
-            Image URL: <input type="text" name="imageUrl"/><br>
-            Bio: 
+            <span class="url">Image URL:</span> <input type="text" name="imageUrl"/><br>
+           <span class="bio"> Bio:</span> 
             <textarea name="bio" cols="50" rows="5"/></textarea>
             
-            <br>
+            <br><br>
 
-            <input type="submit" value="Add Author" name="addAuthorForm" />
+            <input type="submit" value="Add Author" name="addAuthorForm" /></div>
         </form>
         
         

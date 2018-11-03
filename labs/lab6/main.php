@@ -52,6 +52,9 @@ function displayAllAuthors(){
             form {
                 display:inline-block;
             }
+            body{
+                background-image: url("img/stars.png");
+            }
             
         </style>
         

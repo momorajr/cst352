@@ -3,16 +3,16 @@
     width: 50%;
     text-align: center;
 }
-.main{
+.main, .addauthor, .upauthor{
     margin: auto;
     width: 50%;
-}
-body{
-    background-image: url("/cst352/labs/lab6/img/stars.png");
-}
+} 
+
+
 h1{
     color: yellow;
+    text-align: center
 }
-.user, .pass, .country, .welcome{
+.user, .pass, .country, .welcome, .countryaa, .fn, .ln, .gender, .male, .female, .dob, .dod, .pro, .url, .bio{
     color: #fff48f;
 }

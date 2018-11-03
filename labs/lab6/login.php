@@ -10,6 +10,11 @@
         <title>login </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+          body{
+            background-image: url("img/stars.png");
+          }
+        </style>
     </head>
     <body>
         <div class="center">

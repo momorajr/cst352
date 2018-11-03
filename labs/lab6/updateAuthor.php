@@ -73,17 +73,23 @@ if (isset($_GET['authorId'])) {
     <head>
         <title> Update Author </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
-        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+          body{
+            background-image: url("img/stars.png");
+          }
+        </style>
     </head>
     <body>
         
         <h1> Updating Author Info </h1>
-        
+        <br><br>
           <form>
+            <div class="upauthor">
             <input type="hidden" name="authorId" value="<?= $authorInfo['authorId'] ?>" />
-            First Name: <input type="text" name="firstName" value="<?= $authorInfo['firstName'] ?>" /> <br />
-            Last Name: <input type="text" name="lastName"   value="<?= $authorInfo['lastName'] ?>"/> <br />
-            Gender: 
+            <span class="fn">First Name:</span> <input type="text" name="firstName" value="<?= $authorInfo['firstName'] ?>" /> <br />
+            <span class="ln">Last Name:</span> <input type="text" name="lastName"   value="<?= $authorInfo['lastName'] ?>"/> <br />
+            <span class="gender">Gender:</span> 
             <input type="radio" name="gender" value="M" id="genderMale"  
             
               <?php
@@ -97,22 +103,23 @@ if (isset($_GET['authorId'])) {
               ?>
 
             />
-                <label for="genderMale">Male</label>
+                <label for="genderMale"><span class="male">Male</span></label>
             <input type="radio" name="gender" value="F" id="genderFemale"  <?= ($authorInfo['gender'] == "F")?"checked":"" ?> /> 
-                <label for="genderFemale">Female</label><br>
+                <label for="genderFemale"><span class="female">Female</span></label><br>
             
-            Day of birth: <input type="text" name="dob"  value="<?= $authorInfo['dob'] ?>"/> <br />
-            Day of death: <input type="text" name="dod"  value="<?= $authorInfo['dod'] ?>"/> <br />
-            Country: <input type="text" name="country"   value="<?= $authorInfo['country'] ?>"/> <br>
-            Profession: <input type="text" name="profession" value="<?= $authorInfo['profession'] ?>"/> <br>
+            <span class="dob">Day of birth:</span> <input type="text" name="dob"  value="<?= $authorInfo['dob'] ?>"/> <br />
+            <span class="dod">Day of death:</span> <input type="text" name="dod"  value="<?= $authorInfo['dod'] ?>"/> <br />
+           <span class="countryaa"> Country:</span> <input type="text" name="country"   value="<?= $authorInfo['country'] ?>"/> <br>
+           <span class="pro"> Profession:</span> <input type="text" name="profession" value="<?= $authorInfo['profession'] ?>"/> <br>
             
-            Image URL: <input type="text" name="imageUrl" value="<?= $authorInfo['picture'] ?>" size="40"/><br>
-            Bio: 
+            <span class="url">Image URL:</span> <input type="text" name="imageUrl" value="<?= $authorInfo['picture'] ?>" size="40"/><br>
+            <span class="bio">Bio:</span> 
             <textarea name="bio" cols="50" rows="5"/> <?= $authorInfo['bio'] ?> </textarea>
             
             <br>
 
             <input type="submit" value="Update Author" name="updateAuthorForm" />
+            </div>
         </form>
         
         
