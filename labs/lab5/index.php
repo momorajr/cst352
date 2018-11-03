@@ -62,7 +62,7 @@
                 
             }
             body{
-                background-image: url("stars.png");
+                background-image: url("img/stars.png");
             }
             h1 {
                 text-align: center;
