@@ -33,7 +33,10 @@ session_start();  //starts or resumes a session
  //print_r($record);
  if (empty($record)){
      
-     echo "Error: Wrong Username or Password!!";
+     //header("location: login.php");
+     echo "<script> alert('ERROR wrong username or password'); </script>";
+     echo "<script>setTimeout(\"location.href = 'login.php';\",100);</script>";
+     
      
  } else {
 
