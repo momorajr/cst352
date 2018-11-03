@@ -23,7 +23,7 @@ function displayAllAuthors(){
     
     foreach ($authors as $author) {
         
-    
+        echo "<div class='main'>";
         echo "<a   class='btn btn-primary' role='button' href='updateAuthor.php?authorId=".$author['authorId']."'>update</a> ";
         //echo "[<a href='deleteAuthor.php'>delete</a>] ";
         echo "<form action='deleteAuthor.php'  onsubmit='return confirmDelete()'  >";
@@ -31,8 +31,10 @@ function displayAllAuthors(){
         echo "  <button class='btn btn-outline-danger' type='submit'>Delete</button>";
         echo "</form> ";
         echo "<a onclick='openModal()' target='authorModal'  href='authorInfo.php?authorId=".$author['authorId']."'> " . $author['lastName'] . "  " . $author['firstName'] . "</a>  ";
+        echo "<span class='country'>";
         echo $author['country'] . "<br><br>";
-        
+        echo "</span>";
+        echo "</div>";
         
     }
 }
@@ -44,7 +46,7 @@ function displayAllAuthors(){
         <title> Admin Section </title>
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
-        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <style>
             
             form {
@@ -69,17 +71,20 @@ function displayAllAuthors(){
         
     </head>
     <body>
-
+        <div class="center">
         <h1>  Admin Section</h1>
-        Welcome <?= $_SESSION['adminName'] ?>
+        <span class="welcome">Welcome <?= $_SESSION['adminName'] ?></span>
+        </div>
         
         <br><hr><br>
+        <div class="center">
         <form action="addAuthor.php">
             <input type="submit" name="addAuthor" value="Add New Author"/>
         </form>
         <form action="logout.php">
             <input type="submit" name="logout" value="Logout"/>
         </form>
+        </div>
         <br /> <br />
         
         <?=displayAllAuthors()?>

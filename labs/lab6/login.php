@@ -9,20 +9,21 @@
     <head>
         <title>login </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
-        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        
+        <div class="center">
         <h1>Admin Login</h1>
-        
+        <br><br>
         <form action = "loginProcess.php" method="post">
-            Username: <input type="text" name="username" required /><br>
-            Password: <input type="password" name="password" required /><br>
+            <span class="user">Username:</span> <input type="text" name="username" required /><br>
+            <span class="pass">Password:</span> <input type="password" name="password" required /><br>
             
             
             <input type="submit" value="Login!">
             
         </form>
+        </div>
 
 
 

@@ -1,0 +1,18 @@
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.main{
+    margin: auto;
+    width: 50%;
+}
+body{
+    background-image: url("/cst352/labs/lab5/stars.png");
+}
+h1{
+    color: yellow;
+}
+.user, .pass, .country, .welcome{
+    color: #fff48f;
+}
