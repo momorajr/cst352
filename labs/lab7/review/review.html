@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JS review </title>
+        <script>
+            function doMagic(){
+                document.getElementById("catImage").src="img/now_you_dont.png";
+                document.getElementById("message").innerHTML="... now you dont!";
+                document.getElementById("message").style.color = "red";
+                document.getElementById("reapear").style.display = "inline";
+                document.getElementById("doMagic").style.display = "none";
+            }
+            
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+        <style>
+            #reapear{
+                display: none;
+            }
+        </style>
+        <script>
+            $(document).ready(function(){
+                $("#reapear").click(function(){
+                    //alert("test!"); 
+                    $("#catImage").attr("src","img/now_you_see_me.png");
+                    $("#message").html("now you see me again!");
+                    $("#reapear").css("display","none");
+                    $("#doMagic").css("display","inline");
+                });//click
+            });//ready
+            
+        </script>
+    </head>
+    <body>
+        <img id="catImage" src="img/now_you_see_me.png" />
+        <h2 id="message" style="">Now you see me!!</h2>
+        
+        
+            <button id="doMagic" onclick="doMagic()"> do Magic </button>
+            <button id="reapear"> Reapear! </button>
+        
+        
+    </body>
+</html>
