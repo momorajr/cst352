@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HW4 quiz </title>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        
+        <style>
+            #afterSubmit{
+                visibility: hidden;
+            }
+            #wholeThing{
+                margin: auto;
+                width: 65%;
+                border: 3px solid #73AD21;
+                padding: 10px;
+                background-color: white;
+                border-radius: 25px;
+            }
+            h1 {
+                text-align: center;
+                color: white;
+            }
+            body{
+                background-color: black;
+            }
+            #button{
+                background: green;
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+                color: white;
+                transition-duration: .5s;
+                margin-top: 15px;
+            }
+            #button:hover{
+                background: white;
+                border: 1px solid green;
+                color: black;
+                cursor: pointer;
+            } 
+            #q1rightAnswer, #q2rightAnswer, #q3rightAnswer, #q4rightAnswer, #q5rightAnswer, #q6rightAnswer{
+                color: purple;
+                font-size: 1.1em;
+                font-weight: bold;
+            }
+            #numRight{
+                color: blue;
+                font-size: 1.21em;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Welcome to hw4 quiz</h1>
+        
+        <form method ="POST" name ="quiz" id="quiz">
+            <div id="wholeThing">
+            <h3>1) what is the capital of california?<span id="q1coc"> </span></h3><br>
+            <img src="img/sac.jpg" alt="sacramento"><br>
+                <input type="radio" id="q1" name="question1" value="sanfrancisco"> San Francisco<br>
+                <input type="radio" id="q1" name="question1" value="losangeles"> Los Angeles<br>
+                <input type="radio" id="q1" name="question1" value="sacramento"> Sacramento<br>
+                <input type="radio" id="q1" name="question1" value="marina"> Marina<br><br>
+                <p id="q1rightAnswer"></p>
+            
+            <h3>2) Check the only villain in this list from the Marvel Cinematic Universe<span id="q2coc"> </span></h3>
+                <img src="img/marvel.jpg" alt="marvel"><br>
+                <input type="radio" id="q2"name="question2" value="thor"> Thor<br>
+                <input type="radio" id="q2"name="question2" value="thanos"> Thanos<br>
+                <input type="radio" id="q2"name="question2" value="ironman"> Iron Man<br>
+                <input type="radio" id="q2"name="question2" value="hulk"> Hulk<br><br>
+                <p id="q2rightAnswer"></p>
+            
+            <h3>3) what is the square root of &#8730;16?<span id="q3coc"> </span></h3> <input name="question3" id="q3" type="text"><br>
+                 <p id="q3rightAnswer"></p>
+         
+         
+            <h3>4) who is the current president of the United States?<span id="q4coc"> </span></h3>
+            <img src="img/pres.jpg" alt="president"><br>
+             <input name="question4" id="q4" type="text">   
+                <p id="q4rightAnswer"></p>
+                
+           <h3> 5) who is the CEO of tesla motors? <span id="q5coc"> </span></h3>
+                <select id="q5" name="question5">
+                  <option value="">Select one</option>
+                  <option value="A">Bill Gates</option>
+                  <option value="B">Elon Musk</option>
+                  <option value="C">Lisa Wang</option>
+                  <option value="D">Steve Jobs</option>
+                </select>
+            <br>
+                <p id="q5rightAnswer"></p>
+                
+            <h3>6) Which animal is extinct?<span id="q6coc"> </span></h3> 
+                <select id="q6" name="question6">
+                  <option value="">Select one</option>
+                  <option value="A">Dodo</option>
+                  <option value="B">Bald Eagle</option>
+                  <option value="C">Brown Bear</option>
+                  <option value="D">Dolphin</option>
+                </select>
+                <p id="q6rightAnswer"></p>
+                
+            <br><br><br>
+             <div id="afterSubmit">
+                <p id="numRight"> </p>
+            </div>
+            <img id="picture"><br>
+            
+            <input type="button" onclick="check();" value="Submit Quiz" id="button"  />
+            
+
+        </form>
+        
+        
+        <script>
+            function check(){
+                var q1 = document.quiz.question1.value; //first three questions in javascript
+                var q2 = document.quiz.question2.value;
+                var q3 = document.quiz.question3.value;
+                var checkOrCross = [" &#x2705; CORRECT ", " &#x274C; WRONG "];
+                var q1coc,q2coc,q3coc,q4coc,q5coc,q6coc;
+                var correct = 0;
+                
+                ////////////////////////////////////////checking question 1
+                if(q1 == "sacramento"){
+                    correct++;
+                    q1coc = 0;
+                    document.getElementById("q1coc").style.color = "green";
+                }
+                else{
+                    q1coc = 1;
+                    document.getElementById("q1coc").style.color = "red";
+                }
+                ////////////////////////////////////////checking question 2
+                if(q2 == "thanos"){
+                    correct++;
+                    q2coc = 0;
+                    document.getElementById("q2coc").style.color = "green";
+                }
+                else{
+                    q2coc = 1;
+                    document.getElementById("q2coc").style.color = "red";
+                }
+                ////////////////////////////////////////checking question 3
+                if(q3 == "4"){
+                    correct++;
+                    q3coc = 0;
+                    document.getElementById("q3coc").style.color = "green";
+                }
+                else{
+                    q3coc = 1;
+                    document.getElementById("q3coc").style.color = "red";
+                }
+                /////////////////////////////////////////////
+                
+                var q4 = $( "#q4" ).val(); //other 3 questions in jquery
+                var q5 = $( "#q5" ).val();
+                var q6 = $( "#q6" ).val();
+                
+                //////////////////////////////////////////////checking question 4
+                if(q4 == "donald" || q4 == "trump"){
+                    correct++;
+                    q4coc = 0;
+                    document.getElementById("q4coc").style.color = "green";
+                }
+                else{
+                    q4coc = 1;
+                    document.getElementById("q4coc").style.color = "red";
+                }
+                ///////////////////////////////////////////////checking question 5
+                if(q5 == "B"){
+                    correct++;
+                    q5coc = 0;
+                    document.getElementById("q5coc").style.color = "green";
+                }
+                else{
+                    q5coc = 1;
+                    document.getElementById("q5coc").style.color = "red";
+                }
+                //////////////////////////////////////////////checking question 6
+                if(q6 == "A"){
+                    correct++;
+                    q6coc = 0;
+                    document.getElementById("q6coc").style.color = "green";
+                }
+                else{
+                    q6coc = 1;
+                    document.getElementById("q6coc").style.color = "red";
+                }
+                /////////////////////////////////////////////////////
+                
+                var percentRight = ["you got 100%", "you got 83.3%", "you got 66.6%", "you got 50%", "you got 33.3%", "you got 16.6%", "you got 0%"];
+                var indexOfPercent;
+                
+                if (correct == 6){
+                    indexOfPercent = 0;
+                }
+                else if (correct == 5){
+                    indexOfPercent = 1;
+                }
+                else if (correct == 4){
+                    indexOfPercent = 2;
+                }
+                else if (correct == 3){
+                    indexOfPercent = 3;
+                }
+                else if (correct == 2){
+                    indexOfPercent = 4;
+                }
+                else if (correct == 1){
+                    indexOfPercent = 5;
+                }
+                else if (correct == 0){
+                    indexOfPercent = 6;
+                }
+                
+                var image = ["img/yay.gif","img/good.gif","img/bad.gif","img/rbad.gif"];
+                var indexOfImage;
+                
+                if(correct == 6 || correct == 5){
+                    indexOfImage = 0;
+                }
+                else if(correct == 4 || correct == 3){
+                    indexOfImage = 1;
+                }
+                else if(correct == 2 || correct == 1){
+                    indexOfImage = 2;
+                }
+                else if(correct == 0){
+                    indexOfImage = 3;
+                }
+                
+                
+                
+                
+               document.getElementById("afterSubmit").style.visibility = "visible";
+               document.getElementById("numRight").innerHTML = "You got " + correct + " correct." + " So " + percentRight[indexOfPercent];
+               
+               
+               $("#q1rightAnswer").html("the correct answer is Sacramento");
+               $("#q2rightAnswer").html("the correct answer is thanos");
+               $("#q3rightAnswer").html("the correct answer is 4");
+               $("#q4rightAnswer").html("the correct answer is Donald Trump");
+               $("#q5rightAnswer").html("the correct answer is Elon Musk");
+               $("#q6rightAnswer").html("the correct answer is Dodo");
+               
+               
+               document.getElementById("picture").src = image[indexOfImage];
+               
+               document.getElementById("q1coc").innerHTML = checkOrCross[q1coc];
+               document.getElementById("q2coc").innerHTML = checkOrCross[q2coc];
+               document.getElementById("q3coc").innerHTML = checkOrCross[q3coc];
+               document.getElementById("q4coc").innerHTML = checkOrCross[q4coc];
+               document.getElementById("q5coc").innerHTML = checkOrCross[q5coc];
+               document.getElementById("q6coc").innerHTML = checkOrCross[q6coc];
+               
+            }
+            
+            
+            
+        </script>
+        
+    </body>
+</html>
