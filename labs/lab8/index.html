@@ -24,10 +24,12 @@
                         //alert(data);
                         
                         if(data == false) {
-                            alert("Username available");
+                            //alert("Username available");
+                            $("#userSuccess").html("Username available");
                         }
                         else {
-                            alert("Username already taken");
+                            //alert("Username already taken");
+                            $("#userError").html("Username already taken ");
                         }
                         
                         },
@@ -130,10 +132,51 @@
             
             
         </script>
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto" rel="stylesheet">
         <style type="text/css">
             .error{
                 color:red;
             }
+            .success{
+                color:green;
+            }
+            .whole{
+                padding: 10px;
+                width: 60%;
+                margin: 0 auto;
+                border-radius: 10px;
+                background-color: white;
+                 font-family: 'PT Serif', serif;
+                
+            }
+            h1 {
+                text-align: center;
+                color: white;
+                font-family: 'Roboto', sans-serif;
+            }
+            h2{
+               font-family: 'Roboto', sans-serif; 
+            }
+            body{
+                background-color: #7361ff;
+            }
+            .button{
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 10px;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            
+            
         </style>
 
     </head>
@@ -143,11 +186,11 @@
        <h1> Sign Up Form </h1>
     
         <form onsubmit="return validateForm()" action="signup.html">
-            <fieldset>
-               <legend>Sign Up</legend>
-                First Name:  <input type="text"><br> 
-                Last Name:   <input type="text"><br> 
-                Email:       <input type="text"><br> 
+            <div class="whole">
+               <h2>Sign Up</h2>
+                First Name:  <input type="text"><br><br> 
+                Last Name:   <input type="text"><br><br> 
+                Email:       <input type="text"><br><br> 
                 Phone Number:<input type="text"><br><br>
                 Zip Code:    <input id="zipCode" type="text"><br>
                 City: <span id="city"></span> 
@@ -165,16 +208,16 @@
                     <option value="va"> Virginia</option>
                 </select><br />
                 
-                Select a County: <select id="county"></select><br>
+                Select a County: <select id="county"></select><br><br>
                 
-                Desired Username: <input id="user" type="text"><span id="userError" class="error"></span><br>
+                Desired Username: <input id="user" type="text"><span id="userSuccess" class="success"></span><span id="userError" class="error"></span><br><br>
                 
-                Password: <input id="password" type="password"><span id="passwordError" class="error"></span><br>
+                Password: <input id="password" type="password"><span id="passwordError" class="error"></span><br><br>
                 
-                Type Password Again: <input  id="passType" type="password"><span id="retypedError" class="error"></span><br>
+                Type Password Again: <input  id="passType" type="password"><span id="retypedError" class="error"></span><br><br>
                 
-                <input type="submit" value="Sign up!">
-            </fieldset>
+                <input type="submit" class="button" value="Sign up!">
+            </div>
         </form>
     
     </body>
