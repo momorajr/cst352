@@ -2,7 +2,7 @@
 
     function getConnection($dbname){
         $host = "localhost"; //c9
-        //$dbname = "quotes"; database name will be different for project and midterm
+        //$dbname = "quotes"; //database name will be different for project and midterm
         $username = "momorajr";
         $password = "";
         

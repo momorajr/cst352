@@ -7,16 +7,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>   
-        <style>
-            body {
-                text-align: center;
-            }
-            #carouselExampleIndicators{
-                width: 400px;
-                margin: auto;
-            }
-            
-        </style>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
    
     </head>
     <body>
@@ -34,13 +25,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/bear.jpg" width="400" alt="First slide">
+      <img class="d-block w-100" src="img/bear.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/otter.jpg" width="400" alt="Second slide">
+      <img class="d-block w-100" src="img/otter.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/lion.jpg" width="400" alt="Third slide">
+      <img class="d-block w-100" src="img/lion.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -52,7 +43,6 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
 <br>
 <a class="btn btn-outline-success" href="adoptions.php" role="button">Adopt Now!</a>
 
@@ -60,4 +50,4 @@
 <hr>
  <?php
    include "inc/footer.php";
-   ?>
+  ?>

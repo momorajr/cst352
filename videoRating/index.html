@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Rating </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        
+        
+    </head>
+    <body>
+        
+        <h1>Rate this Video</h1>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/pqOmr5Vt4ZM" 
+       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <div id="ratings">
+        <h3>Stars:
+        <input type="radio" id="rating" value="1">1
+        <input type="radio" id="rating" value="2">2
+        <input type="radio" id="rating" value="3">3
+        <input type="radio" id="rating" value="4">4</h3>
+    </div>
+    <span id="info"></span>
+    
+    
+    <script>
+        
+            $("#ratings").rating(function(vote, event){
+                $.ajax({
+                    method: 'POST', 
+                    url: 'insrating.php',
+                    data: {vote:vote}
+                }).done(function(info){
+                    $('#info').html("Your vote: <br>"+info+"<br>")
+                })
+            })
+        
+            
+    </script>
+
+    </body>
+</html>
