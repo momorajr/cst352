@@ -94,7 +94,7 @@ function displayAllPets(){
         </button>
       </div>
       <div class="modal-body">
-         <img src="img/spinner.gif" id="loader" width="150" />
+         <img src="https://loading.io/spinners/fidget-spinner/lg.fidget-spinner.gif" id="loader" width="150" />
         <div id="petInfo">
              
         <!-- this is an html element -->
