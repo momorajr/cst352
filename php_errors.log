@@ -160,3 +160,36 @@ Stack trace:
   thrown in /home/ubuntu/workspace/cst352/midterm/program2.php on line 10
 [30-Oct-2018 04:59:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/midterm/program1.php on line 118
 [30-Oct-2018 05:02:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/midterm/program1.php on line 118
+[13-Dec-2018 18:05:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'sampopl25'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst352/FinalProject/sql/vGconnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/FinalProject/sql/vGconnection.php(20): PDO->__construct('mysql:host=loca...', 'sampopl25', '')
+#1 /home/ubuntu/workspace/cst352/FinalProject/main.php(11): dbConnection('vidBox')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/FinalProject/sql/vGconnection.php on line 20
+[13-Dec-2018 18:09:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'sampopl25'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst352/FinalProject/sql/vGconnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/FinalProject/sql/vGconnection.php(20): PDO->__construct('mysql:host=loca...', 'sampopl25', '')
+#1 /home/ubuntu/workspace/cst352/FinalProject/main.php(11): dbConnection('c9')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/FinalProject/sql/vGconnection.php on line 20
+[13-Dec-2018 18:10:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.videoGames' doesn't exist' in /home/ubuntu/workspace/cst352/FinalProject/main.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/FinalProject/main.php(57): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/FinalProject/main.php(145): displayNumGames()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/FinalProject/main.php on line 57
+[13-Dec-2018 18:11:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`vidBox`.`consoleInfo`, CONSTRAINT `consoleInfo_ibfk_1` FOREIGN KEY (`consoleId`) REFERENCES `videoGames` (`consoleId`))' in /home/ubuntu/workspace/cst352/FinalProject/deleteGame.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/FinalProject/deleteGame.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/FinalProject/deleteGame.php on line 17
+[13-Dec-2018 18:11:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`vidBox`.`consoleInfo`, CONSTRAINT `consoleInfo_ibfk_1` FOREIGN KEY (`consoleId`) REFERENCES `videoGames` (`consoleId`))' in /home/ubuntu/workspace/cst352/FinalProject/deleteGame.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/FinalProject/deleteGame.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/FinalProject/deleteGame.php on line 17
+[13-Dec-2018 18:39:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`vidBox`.`consoleInfo`, CONSTRAINT `consoleInfo_ibfk_1` FOREIGN KEY (`consoleId`) REFERENCES `videoGames` (`consoleId`))' in /home/ubuntu/workspace/cst352/FinalProject/deleteGame.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/FinalProject/deleteGame.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/FinalProject/deleteGame.php on line 17
