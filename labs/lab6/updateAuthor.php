@@ -83,7 +83,7 @@ if (isset($_GET['authorId'])) {
     <body>
         
         <h1> Updating Author Info </h1>
-        <br><br>
+        <br><b
           <form>
             <div class="upauthor">
             <input type="hidden" name="authorId" value="<?= $authorInfo['authorId'] ?>" />
