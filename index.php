@@ -21,5 +21,6 @@ echo 'Hello world from Cloud9!';
 <a href="labs/lab8/index.html">lab8 link</a>
 <a href="labs/lab9/index.php">lab9 link</a>
 <a href="FinalProject/index.php">FinalProject Link</a>
+<a href="labs/lab10/index.html">lab10 link</a>
 </body>
 </html>
